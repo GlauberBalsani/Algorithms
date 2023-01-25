@@ -1,0 +1,9 @@
+/**
+ * 
+ */
+/**
+ * @author glaub
+ *
+ */
+module javaAlgorithms {
+}
