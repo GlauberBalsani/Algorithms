@@ -12,4 +12,14 @@
 
 - O Big O sempre irá informar o pior caso, como podemos ver no gráfico os de complexidade Fatorial O(n!) sempre serão os de piores casos.
 - No caso de complexidade linear denpendemos sempre do (n) elementos o elemento pode estar na primeira posição quanto na última sendo assim teremos que percorrer o conjunto inteiro até achar o item, não necessamente será o mais demorado.
--  O pior cenário será o do O(n!)
+-  Uma constante O(1) representa o melhor desempenho possível para um algoritmo. Isso significa que, independentemente do tamanho dos dados de entrada, o tempo de execução do algoritmo será sempre o mesmo. Alguns exemplos de operações com complexidade O(1) incluem acessar um elemento em um array pelo índice, ou acessar um elemento em uma tabela hash pelo identificador. 
+	- `int[] array = {1, 2, 3, 4, 5}; 
+	- `int index = 3;`
+	- `int element = array[index]; // element = 4`
+- Uma algoritmo de estrutura linear é relativo ao  'n' elementos em um array, 
+	- `for (int i = 0; i < array.length; i++) {`
+		    `System.out.println(array[i]);`
+		`}`
+		pode-se dizer que em comparção a constante uma estrutura linear é menos eficiente.Isso porque a complexidade linear significa que o tempo de execução do algoritmo aumenta proporcionalmente ao tamanho dos dados de entrada. Isso pode causar problemas em conjuntos de dados grandes, pois o tempo de execução pode se tornar muito longo.
+
+`
