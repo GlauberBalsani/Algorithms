@@ -22,4 +22,4 @@
 		`}`
 		pode-se dizer que em comparção a constante uma estrutura linear é menos eficiente.Isso porque a complexidade linear significa que o tempo de execução do algoritmo aumenta proporcionalmente ao tamanho dos dados de entrada. Isso pode causar problemas em conjuntos de dados grandes, pois o tempo de execução pode se tornar muito longo.
 
-`
+
